@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Add a movie</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Add a movie form</h1>
+
+    <form action="{{ url_for('add_movie') }}" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required>
+        <br>
+
+        <label for="year">Year:</label>
+        <input type="number" name="year" required>
+        <br>
+
+        <label for="director">Director</label>
+        <input type="text" name="director">
+        <br>
+
+        <label for="Genre">Genre:</label>
+        <select name="genre" id="genre" required>
+            <option value="Drama">Drama</option>
+            <option value="Crime">Crime</option>
+            <option value="Romance">Romance</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Western">Western</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Action">Action</option>
+            <option value="Horror">Horror</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <Option value="Not specified">Other</Option>
+        </select>
+        <br>
+
+        <button type="submit">Add movie</button>
+    </form>
+
+    <a href="{{ url_for('show_movies') }}">Check all movies</a>
+    <a href="/">Get back to homepage</a>
+{% endblock %}
