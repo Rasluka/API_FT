@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block body %}
-    <h1>Welcome, here you'll find all the movies that I have already watched</h1>
+    <div class="mainContainer">
+        <h1>Welcome, here you'll find all the movies that I have already watched!</h1>
 
-    <a href="{{ url_for('show_movies') }}">Check all movies</a>
+        <a href="{{ url_for('show_movies') }}">
+            <button class="btt">List of Movies</button>
+        </a>
+    </div>
 {% endblock %}

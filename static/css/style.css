@@ -1,0 +1,87 @@
+body {
+    background-color: #393E46;
+    font-family: 'Inconsolata', monospace;
+    color: #FF2E63;
+    text-align: center;
+}
+
+.btt {
+    padding: 10px;
+    margin-top: 10px;
+    color: #393E46;;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+.btt:hover{
+    text-decoration: none;
+    color: #FF2E63;
+    border: none;
+}
+
+.btt:active{
+    border: #FF2E63;
+}
+
+.mainContainer {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.titleText {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.myTable {
+    width: 90%;
+    margin: auto;
+}
+
+.anchorStyled {
+    color: #00ADB5;
+}
+
+.anchorStyled:hover{
+    text-decoration: none;
+    color: #FF2E63;
+}
+.formContainer {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.uniqueForm {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.uniqueForm label{
+    color: #08D9D6;
+}
+
+.uniqueForm label, input, select {
+    display: block;
+    margin: 0;
+}
+
+.uniqueForm input, select {
+    background-color: #222831;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.bttTwo {
+    background-color: #FF2E63;
+    color: #EEEEEE;
+}
+
+.bttTwo:hover{
+    background-color: transparent; 
+    color: #FF2E63;
+    border: #EEEEEE 1px solid;
+}
