@@ -1,6 +1,9 @@
 # The list of the movies that I have watched
 
-## This project was created using Flask, SQLite, HTML and some CSS (Havent added JS yet)
+## This project was created using Flask, SQLite, HTML and some CSS/Bootstrap (Havent added JS yet)
+
+### Deployed to Heroku
+https://mylistofmoviesinflaskcrud.herokuapp.com/
 
 In a effort to continue improving my dev skill I created this small project to put in practice everything I've recently learned about Flask, I had already some experience with Django therefore Flask wasnt that difficult to learn (at least the basics).
 

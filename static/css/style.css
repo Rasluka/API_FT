@@ -85,3 +85,15 @@ body {
     color: #FF2E63;
     border: #EEEEEE 1px solid;
 }
+
+footer a{
+    color: #EEEEEE;
+    text-decoration: none;
+    transition:transform 0.25s ease;
+}
+
+footer a:hover{
+    color: #FF2E63;
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
